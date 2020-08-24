@@ -8,7 +8,6 @@ export class Card extends Component<{}, {}> {
   render() {
     return (
       <div className="card-container">
-        <p>card is working!</p>
         <Navigation />
         <Search />
         <Contact />

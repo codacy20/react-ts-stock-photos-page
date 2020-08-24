@@ -1,0 +1,24 @@
+.project-container{
+  // height: 442px;
+  width: 866px;
+  display: flex;
+  flex-wrap: wrap;
+  // align-items: center;
+  .tile{
+    height: 214px;
+    width: 275px;
+    background: red;
+    border: 1px black solid;
+    // margin: 7.5px;
+  }
+  .top{
+    margin-bottom: 7.5px;
+  }
+  .down{
+    margin-top: 7.5px;
+  }
+  .middle{
+    margin-left: 15px;
+    margin-right: 15px;
+  }
+}
