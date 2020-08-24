@@ -1,11 +1,8 @@
 import React, { Component } from "react";
+import "./Contact.scss";
 
 export class Contact extends Component<{}, {}> {
   render() {
-    return (
-      <div>
-        <p>contact is working!</p>
-      </div>
-    );
+    return <div className="contact-container">Hire me</div>;
   }
 }

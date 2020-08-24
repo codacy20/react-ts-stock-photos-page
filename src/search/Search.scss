@@ -1,0 +1,30 @@
+.search-container{
+  height: 52px;
+  width: 337px;
+  box-sizing: border-box;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #9BAAB7;
+  input{
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+    border-bottom: 1px solid #C8D3DC;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    color: #9BAAB7;
+    padding-left: 15px;
+  }
+  input:focus{
+    outline: none;
+  }
+  span{
+    position: absolute;
+    position: absolute;
+    right: 0;
+    font-size: 30px;
+  }
+}

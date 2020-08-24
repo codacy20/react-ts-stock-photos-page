@@ -1,19 +1,30 @@
 .nav-container{
   display: flex;
   flex-direction: row;
+  align-items: baseline;
+  height: 30px;
   .item{
     margin: 0 17.5px 0 17.5px;
     cursor: pointer;
     display: flex;
-    justify-content: center;
+    justify-content: baseline;
     align-items: center;
     flex-direction: column;
+    position: relative;
+    height: 100%;
   }
   .border{
+    opacity: 0;
     width: 20px;
     height: 2px;
     background: #2E3336;
     border-radius: 1.5px;
-    margin-top: 7px;
+    bottom: 0px;
+    position: absolute;
+    transition: 0.2s ease-in-out;
+  }
+  .border.active{
+    opacity: 1;
+    transition: 0.2s ease-in-out;    
   }
 }
