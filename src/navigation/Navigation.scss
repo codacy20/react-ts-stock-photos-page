@@ -1,0 +1,19 @@
+.nav-container{
+  display: flex;
+  flex-direction: row;
+  .item{
+    margin: 0 17.5px 0 17.5px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .border{
+    width: 20px;
+    height: 2px;
+    background: #2E3336;
+    border-radius: 1.5px;
+    margin-top: 7px;
+  }
+}

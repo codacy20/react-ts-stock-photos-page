@@ -1,3 +1,15 @@
 * {
   font-family: Muli;
 }
+
+.App {
+  background: #dce3e9;
+  height: 99vh;
+  width: 99vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body {
+  margin: 0;
+}
