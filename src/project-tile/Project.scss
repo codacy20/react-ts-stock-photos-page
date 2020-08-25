@@ -6,7 +6,6 @@
   .tile{
     height: 214px;
     width: 275px;
-    cursor: pointer;
     position: relative;
     .info{
       display: none;
@@ -29,6 +28,9 @@
       .stack{
         display: flex;
         flex-direction: row;
+        p{
+          cursor: pointer;
+        }
       }
     }
   }
