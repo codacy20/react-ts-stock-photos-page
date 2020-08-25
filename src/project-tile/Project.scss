@@ -1,15 +1,33 @@
 .project-container{
-  // height: 442px;
   width: 866px;
-  display: flex;
+  display: inline-flex;
   flex-wrap: wrap;
-  // align-items: center;
+  gap: 15px;
   .tile{
     height: 214px;
     width: 275px;
     background: red;
-    border: 1px black solid;
-    // margin: 7.5px;
+    cursor: pointer;
+    position: relative;
+    .info{
+      display: none;
+    }
+  }
+  .tile:hover{
+    .info{
+      position: absolute;
+      bottom: 0;
+      height: 55px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      background: rgba(19, 35, 52, 0.5);
+      p{
+        margin: 0 0 0 15px;
+        color: white;
+      }
+    }
   }
   .top{
     margin-bottom: 7.5px;

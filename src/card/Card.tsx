@@ -8,10 +8,16 @@ export class Card extends Component<{}, {}> {
   render() {
     return (
       <div className="card-container">
-        <Navigation />
-        <Search />
-        <Contact />
-        <Project />
+        <div className="row1">
+          <Navigation />
+        </div>
+        <div className="row2">
+          <Search />
+          <Contact />
+        </div>
+        <div className="row3">
+          <Project />
+        </div>
       </div>
     );
   }
