@@ -6,7 +6,6 @@
   .tile{
     height: 214px;
     width: 275px;
-    background: red;
     cursor: pointer;
     position: relative;
     .info{
@@ -26,6 +25,10 @@
       p{
         margin: 0 0 0 15px;
         color: white;
+      }
+      .stack{
+        display: flex;
+        flex-direction: row;
       }
     }
   }
