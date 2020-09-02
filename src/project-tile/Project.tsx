@@ -38,12 +38,16 @@ export class Project extends Component<{}, {}> {
     return (
       <div className="project-container">
         {this.data.map((item, index) => (
-          <div className="tile" style={{ backgroundImage: `url(${item.url})` }}>
+          <div
+            className="tile"
+            style={{ backgroundImage: `url(${item.url})` }}
+            key={index}
+          >
             <div className="info">
               <p>{item.name}</p>
               <div className="stack">
-                {this.data[index].stack.map((stack) => (
-                  <p>{stack}</p>
+                {this.data[index].stack.map((stack, innerIndex) => (
+                  <p key={innerIndex}>{stack}</p>
                 ))}
               </div>
             </div>
